@@ -18,7 +18,7 @@ $$    $$/ $$ |  $$ |$$       |$$       |$$ | $$  |      $$ |/ $$   |$$ |  $$ |$$
 
                                                                               
 <br>
-A Python script designed to scan a list of subdomains for user input elements such as forms, input fields, textareas, buttons, and keywords like "login" or "submit". It uses `curl` to fetch webpage content and checks both HTTP and HTTPS protocols, including following links that might lead to input pages.
+A Python script designed to scan a list of subdomains for user input elements such as forms, input fields, textareas, buttons, and keywords like "login" or "submit". It uses `curl` to fetch webpage content and checks both HTTP and HTTPS protocols, including following links that might lead to input pages. This can be useful for Red Teamers for quick identification of websites that may be targeted for later input attacks such as BruteForce, SQL Injection, etc. Or this could be a great tool for Defenders to understand what sites may be targeted in potential attacks!
 
 ## Features
 - Scans subdomains over HTTP and HTTPS.
